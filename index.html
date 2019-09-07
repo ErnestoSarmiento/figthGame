@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenido">
+        <h1>Figth Game</h1>
+        <div class="fondo">
+            <div class="salud">
+                <p id="salud-uno" class="salud">100</p>
+                <p id="salud-dos" class="salud">100</p>
+            </div>
+            <div class="monos"> 
+                <img src="img/img_dot_fina_mov.gif" id="jugador-uno" alt="Primer jugador">
+                <img src="img/img_dot_rain_mov.gif" id="jugador-dos" alt="Segundo jugador">
+            </div>
+        </div>
+        <div class="botones">
+            <div class="button-ataque">
+                <button id="btn-uno" onclick="personajeUno.atacar(this,personajeDos)">Atacar</button>
+            </div>
+            <div id="reset"></div>
+            <div class="button-ataque">
+                <button id="btn-dos" onclick="personajeDos.atacar(this,personajeUno)">Atacar</button>
+            </div>
+        </div>
+        <div id="status"></div>
+        <div id="mensaje"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="Concurrent.Thread.ScriptExecuter+Http.js"></script>
+</body>
+</html>

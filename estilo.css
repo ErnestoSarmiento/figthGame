@@ -1,0 +1,49 @@
+body{
+    background: black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.fondo{
+    background-image: url(img/fondo.gif);
+    background-size: none 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#mensaje{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.salud{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    color:black;
+    padding-inline-start: 12rem;
+    padding-inline-end: 12rem;
+}
+
+.monos{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.4rem;
+}
+
+.button-ataque{
+    padding-inline-start: 10rem;
+    padding-inline-end: 10rem;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
